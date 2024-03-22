@@ -3,6 +3,14 @@
     padding: 0;
     box-sizing: border-box;
     font-family: cursive;
+    
+}
+* {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+body::-webkit-scrollbar {
+    display: none;
 }
 #webname {
     display: inline;
@@ -10,6 +18,7 @@
     border-radius: 50px;
     font-size: x-large;
     padding-left: 10px;
+    color: white;
 }
 img {
     display: inline;
@@ -22,19 +31,22 @@ nav{
     position: fixed;
     padding: 15px;
     background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(89,254,136,1) 0%, rgba(66,234,46,1) 0%, rgba(59,240,176,1) 0%, rgba(9,246,4,1) 32%, rgba(0,212,255,1) 100%);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(196,141,27,1) 100%, rgba(0,212,255,1) 100%);
+    /* background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 17%, rgba(0,212,255,1) 67%, rgba(89,214,230,1) 83%); */
     color: black;
     width: 100vw;
+    height: 60px;
 }
 a {
     display: inline-flex;
     padding: 10px;
     text-decoration: none;
-    color: rgb(72, 74, 72);
+    color: white;
 }
 #navend {
     display: inline-flex;
-    padding-left: 700px;
+    padding-left: 750px;
 }
 a:hover {
     color: rgb(252, 249, 66);
@@ -44,15 +56,15 @@ a:hover {
 }
 
 .banner {
-    padding-top: 50px;
-    height: 25%;
-    width: 100%;
+    padding-top: 40px;
+    width: 98vw;
+    height: 100vh;
 }
 footer {
     background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(89,254,136,1) 0%, rgba(66,234,46,1) 0%, rgba(59,240,176,1) 0%, rgba(9,246,4,1) 32%, rgba(0,212,255,1) 100%);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(196,141,27,1) 100%, rgba(0,212,255,1) 100%);
     width: 100%;
-    height: 100px;
+    height: 60px;
     display: flex;
     justify-content:  center;
     padding: 10px;
@@ -60,4 +72,85 @@ footer {
     margin-top: 20px;
     padding-left: 6vw;
     font-size: 17px;
+    color: white;
+    padding-bottom: 10px;
+}
+div.fact1 {
+    padding: 100px;
+    padding-bottom: 50px;
+}
+#fact1img {
+    width: 80%;
+    height: 90%;
+}
+div.intro {
+    padding: 100px;
+    padding-bottom: 50px;
+}
+div.intropart1 {
+    width: 50%;
+    height: 20%;
+    float: left;
+    text-align: center;
+    font-size: larger;
+    font-weight: 1000;
+    font-size: 45px;
+    padding-bottom: 50px;
+    padding-top: 30px;
+    padding-right: 70px;
+}
+div.intropart2 {
+    width: 50%;
+    height: 20%;
+    float: right;
+    padding-bottom: 50px;
+    font-size: 18px;
+}
+div.fact1 {
+    padding: 100px;
+    padding-bottom: 50px;
+}
+div.intropart11 {
+    width: 50%;
+    height: 20%;
+    float: right;
+    text-align: center;
+    font-size: larger;
+    font-weight: 1000;
+    font-size: 45px;
+    padding-bottom: 50px;
+    padding-top: 150px;
+}
+div.intropart21 {
+    width: 50%;
+    height: 20%;
+    float: left;
+    padding-bottom: 50px;
+    padding-top: 100px;
+}
+
+div.intro2 {
+    padding-top: 700px;
+    padding-bottom: 100px;
+    padding-left: 100px;
+}
+div.intropart12 {
+    width: 50%;
+    height: 20%;
+    float: left;
+    text-align: center;
+    font-size: larger;
+    font-weight: 1000;
+    font-size: 45px;
+    padding-bottom: 50px;
+    padding-top: 90px;
+    padding-right: 70px;
+}
+div.intropart22 {
+    width: 50%;
+    height: 20%;
+    float: right;
+    padding-bottom: 50px;
+    font-size: 18px;
+    padding-right: 100px;
 }
