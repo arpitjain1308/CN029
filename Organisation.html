@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register the Organisation</title>
+    <link rel="stylesheet" href="/styleaayojak.css">
+    <link rel="shortcut icon" href="/favicon.jpg" type="image/x-icon">
+</head>
+<body class="bg-image">
+    <div>
+        <nav>
+            <img id="logoimg" src="/favicon.jpg" alt="">
+            <h1 id="webname">AAYOJAK</h1>
+            <a id="navend" href="index.html">Home</a>
+            <a href="Organisation.html" target="_blank">Organisations</a>
+            <a href="About.html">About us</a>
+        </nav>
+
+        <br><br><br><br><br><br><br>
+        <h1 class="regorg">Register Your Organisation</h1>
+        <br><br><br><br>
+        <form action="connectaayojak.php" method="post">
+            <label for="name">Name of the Organisation: </label>
+            &nbsp&nbsp&nbsp&nbsp &nbsp&nbsp &nbsp&nbsp
+            <input type="text" id="name" name="name" placeholder="Enter the Organisation name" required>
+            <br><br>
+            <label for="name">Location: </label>
+            &nbsp&nbsp&nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp
+            <input type="text" id="location" name="location" placeholder="Enter the Address" required>
+            <br><br>
+            <label for="name">Est. Year: </label>
+            &nbsp&nbsp&nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp
+            <input type="number" id="estyear" name="estyear" placeholder="Enter the Establishment Year" required>
+            <br><br>
+            <label for="name">Website link: </label>
+            &nbsp&nbsp&nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp
+            <input type="text" id="weblink" name="weblink" placeholder="Enter the Website link" required>
+            <br><br>
+            <label for="name">Contact Email: </label>
+            &nbsp&nbsp&nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp
+            <input type="email" id="conemail" name="conemail" placeholder="Enter the contact email" required>
+            <br><br><br><br>
+            <button type="submit">Submit</button>
+            &nbsp&nbsp
+            <button type="reset">Reset</button>
+        </form>
+    </div>
+</body>
+</html>
